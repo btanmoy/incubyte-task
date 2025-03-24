@@ -1,6 +1,6 @@
 // code 
 
-function add(numbers) {
+function addNumbers(numbers) {
     if (!numbers) return 0;
     
     let delimiter = /,|\n/;
@@ -18,5 +18,5 @@ function add(numbers) {
     }
     return numArray.reduce((sum, num) => sum + Number(num), 0);
 }
-module.exports = add;
+module.exports = addNumbers;
 
