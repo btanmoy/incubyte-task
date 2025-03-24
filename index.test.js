@@ -15,7 +15,7 @@ test('adds two comma-separated numbers', () => {
 });
 
 test('supports different delimiters', () => {
-    expect(addNumbers("//;\n1;5")).toBe(6);
+    expect(addNumbers("//;\n1;2")).toBe(3);
 });
 
 test('throws error for negative numbers', () => {
